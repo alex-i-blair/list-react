@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+.pizza-image {
+  width: 400px;
+}
+
+.tree-image {
+  width: 70%;
+}
+
+.textures {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: green; */
+}
+
+.texture-list {
+  width: 12%;
+  /* background-color: magenta; */
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textures ul {
+  /* background-color: orange; */
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 20%;
+  margin-left: 54px;
+}
+
+.textures h4 {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizza-items, .tree-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 10px;
+  margin: 60px;
+  margin-top: 0;
+  border-radius: 5px;
+}
+
+.pizza-items {
+  border: orangered solid 1px;
+  background-color: rgba(255, 68, 0, 0.27) ;
+}
+
+.tree-card {
+  border: forestgreen solid 1px;
+  background-color: rgba(34, 139, 34, 0.27) ;
+}
+
+.trees-list, .pizzas-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  padding: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: fit-content;
+  
+  border-radius: 5px;
+}
+
+.trees-list h1 {
+  border: solid forestgreen 3px;
+}
+
+.pizzas-list h1 {
+  border: solid tomato 3px;
+}
+
+h3 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0;
+  font-size: larger;
+}
