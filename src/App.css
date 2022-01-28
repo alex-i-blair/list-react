@@ -41,6 +41,10 @@
   width: 400px;
 }
 
+.tree-image {
+  width: 70%;
+}
+
 .textures {
   width: 100%;
   display: flex;
@@ -59,8 +63,6 @@
   flex-direction: column;
 }
 
-
-
 .textures ul {
   /* background-color: orange; */
   margin-bottom: 0;
@@ -74,13 +76,26 @@
 
 #root {
   display: flex;
-
+  align-items: center;
+  justify-content: center;
 }
 
-.pizza-items {
+.pizza-items, .tree-card {
   border: orangered solid 1px;
+  width: 70%;
   padding: 10px;
   margin: 60px;
   border-radius: 5px;
   background-color: rgba(255, 68, 0, 0.27) ;
+}
+
+.trees-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.trees-list h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
