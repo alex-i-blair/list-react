@@ -1,5 +1,4 @@
 import React from 'react';
-import TextureList from './TextureList';
 
 export default function Pizza({
   style,
@@ -9,14 +8,17 @@ export default function Pizza({
 }) {
   return <div className='pizza-items'>
     <h2>{style}</h2>
-    <img src={img}></img>
-    <h4>{`The crust is ${crust.thickness}.`}</h4>
-    <ul>Crust Texture:
-      {crust.texture.map((t, i) => {
-        <li key={t + i}>
-          {t}
-        </li>;
-      })}
-    </ul>
+    <img src={img} className='pizza-image'></img>
+    <p>{`The crust is ${crust.thickness}. `}{details}</p>  
+    <div className='textures'>
+      <h4>Crust Texture:</h4>
+      <ul className='texture-list'>
+        {crust.texture.map((t, i) => 
+          <li key={t + i}>
+            {t}
+          </li>
+        )}
+      </ul>
+    </div>
   </div>;
 }

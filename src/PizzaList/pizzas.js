@@ -8,7 +8,7 @@ export const pizzas = [
         'soft', 'chewy' 
       ]
     }, 
-    details: 'Cooked in a very hot (900°-1000°F) wood fired oven. Total cook time is around 1 minute. Usually they are round 12" in diameter and are minimally topped.'
+    details: 'It is cooked in a very hot (900°-1000°F) wood fired oven. Total cook time is around 1 minute. Usually they are round 12" in diameter and are minimally topped.'
   },
   {
     style: 'Detroit',
@@ -31,6 +31,6 @@ export const pizzas = [
         'chewy', 'slightly crunchy'
       ]
     }, 
-    details: 'Similar to Neapolitan but often larger, sturdier, and traditionally made in coal fired ovens.'
+    details: 'This is similar to Neapolitan but often larger, sturdier, and traditionally made in coal fired ovens.'
   }
 ];
