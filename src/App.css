@@ -61,10 +61,15 @@
 
 
 
-.textures h4, ul {
+.textures ul {
   /* background-color: orange; */
   margin-bottom: 0;
   margin-top: 0;
+  width: 20%;
+}
+
+.textures h4 {
+  margin: 0;
 }
 
 #root {
