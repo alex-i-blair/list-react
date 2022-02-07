@@ -37,12 +37,10 @@
   }
 }
 
+.tree-image,
+.cocktail-image,
 .pizza-image {
   width: 400px;
-}
-
-.tree-image {
-  width: 70%;
 }
 
 .textures {
@@ -81,7 +79,10 @@
   justify-content: center;
 }
 
-.pizza-items, .tree-card {
+.pizza-items,
+.tree-card,
+.jokes-list,
+.cocktail-items {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,15 +96,33 @@
 
 .pizza-items {
   border: orangered solid 1px;
-  background-color: rgba(255, 68, 0, 0.27) ;
+  background-color: rgba(255, 68, 0, 0.27);
+}
+
+.jokes-list {
+  background-color: rgba(4, 19, 179, 0.301);
+  border: solid purple 1px;
+}
+
+.cocktail-items {
+  border: solid greenyellow 1px;
+  background-color: rgba(172, 255, 47, 0.434);
+  padding-bottom: 30px;
 }
 
 .tree-card {
   border: forestgreen solid 1px;
-  background-color: rgba(34, 139, 34, 0.27) ;
+  background-color: rgba(34, 139, 34, 0.27);
 }
 
-.trees-list, .pizzas-list {
+.jokes-container {
+  margin-top: 70px;
+}
+
+.trees-list,
+.pizzas-list,
+.cocktails-list,
+.jokes-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -114,7 +133,7 @@ h1 {
   padding: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   width: fit-content;
-  
+
   border-radius: 5px;
 }
 
@@ -127,7 +146,7 @@ h1 {
 }
 
 h3 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 0;
   font-size: larger;
 }
